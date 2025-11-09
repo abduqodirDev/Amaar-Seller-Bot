@@ -27,7 +27,6 @@ async def start():
     dp.shutdown.register(shutdown_answer)
 
     dp.include_router(message_router)
-    # dp.include_router(callback_router)
 
     bot = Bot(bot_token)
     await dp.start_polling(bot, polling_timeout=0)
