@@ -9,13 +9,13 @@ from keyboards import phone_keyboard, main_menu
 
 
 async def start_common_answer(message: Message, state: FSMContext):
-    if message.from_user.id == 1028459910:
-        text = (
-            "Salom! Siz Abduqodir Do'stmurodov Amaar MarketPlace’da bosh dasturchisiz. 👋\n"
-            "Yangi buyurtmalar haqida shu bot orqali sizni xabardor qilib turamiz."
-        )
-        await message.answer(text)
-    elif message.from_user.id == 7780293305:
+    # if message.from_user.id == 1028459910:
+    #     text = (
+    #         "Salom! Siz Abduqodir Do'stmurodov Amaar MarketPlace’da bosh dasturchisiz. 👋\n"
+    #         "Yangi buyurtmalar haqida shu bot orqali sizni xabardor qilib turamiz."
+    #     )
+    #     await message.answer(text)
+    if message.from_user.id == 7780293305:
         text = (
             "Salom! Siz Furqat Yaqubov Amaar MarketPlace egasisiz. 👋\n"
             "Yangi buyurtmalar haqida shu bot orqali sizni xabardor qilib turamiz."
